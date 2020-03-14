@@ -1,6 +1,8 @@
 # Poisson Disc Sampling
 Poisson Disc Sampling GDScript for Godot. Generates evenly and randomly distributed points for a given region (rectangular, polygonal or circular) separated by a minimum distance.
 
+<img src="https://raw.githubusercontent.com/udit/assets/master/poisson-disc-sampling/polygon.gif" width=45%> <img src="https://raw.githubusercontent.com/udit/assets/master/poisson-disc-sampling/rectangle.gif" width=45%> <img src="https://raw.githubusercontent.com/udit/assets/master/poisson-disc-sampling/circle.gif" width=45%>
+
 ## How to use
 * Create an instance of class `PoissonDiscSampling`
 * Call `generate_points(radius: float, sample_region_shape, retries: int, start_pos: Vector2)`:
