@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/PoissonDiscSampling/Visualizer/PolygonTester.gd" type="Script" id=1]
+
+[node name="PolygonTester" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( -0.568787, 0 )
+color = Color( 0.921569, 1, 0, 0 )
+antialiased = true
+polygon = PoolVector2Array( 1652.09, 404.164, 1020.9, 114.599, 791.346, 514.627, 474.889, 192.896, 357.097, 495.288, 277.983, 75.1039, 70.5279, 184.106, 35.3661, 625.387, 239.305, 918.988, 156.674, 609.564, 126.787, 249.155, 300.838, 609.564, 581.675, 703.491, 506.535, 345.85, 833.54, 739.663, 1089.23, 313.065, 1499.18, 501.771, 1495.92, 836.886, 1356.02, 862.915, 1050.19, 882.436, 1144.54, 583.11, 1277.93, 599.377, 1398.32, 758.801, 1378.79, 573.349, 1125.02, 443.207, 907.03, 934.493, 1609.8, 983.296 )
