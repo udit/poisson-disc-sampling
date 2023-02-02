@@ -3,7 +3,7 @@ Poisson Disc Sampling GDScript for Godot. Generates evenly and randomly distribu
 
 Available on Godot Asset Library: https://godotengine.org/asset-library/asset/559
 
-<img src="https://raw.githubusercontent.com/udit/assets/master/poisson-disc-sampling/polygon.gif" width=45%> <img src="https://raw.githubusercontent.com/udit/assets/master/poisson-disc-sampling/rectangle.gif" width=45%> <img src="https://raw.githubusercontent.com/udit/assets/master/poisson-disc-sampling/circle.gif" width=45%>
+<img src="docs/polygon.gif" width=45%> <img src="docs/rectangle.gif" width=45%> <img src="docs/circle.gif" width=45%>
 
 ## How to use
 * Create an instance of class `PoissonDiscSampling`
