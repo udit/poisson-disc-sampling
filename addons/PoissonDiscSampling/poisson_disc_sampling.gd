@@ -81,7 +81,7 @@ static func _generate_points(shape: int, sample_region_rect: Rect2, poisson_radi
 					spawn_points.append(sample)
 					sample_accepted = true
 					break
-		if not sample_accepted:
+		if not sample_accepted and points.size() > 0:
 			spawn_points.remove_at(spawn_index)
 	return points
 
