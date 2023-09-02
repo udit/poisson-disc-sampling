@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://c74o3ucws2ac4"]
+
+[ext_resource type="Script" path="res://addons/PoissonDiscSampling/Demo/polygon_demo.gd" id="1_3y3ej"]
+
+[node name="SubViewportContainer" type="SubViewportContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SubViewport" type="SubViewport" parent="."]
+handle_input_locally = false
+size = Vector2i(1152, 648)
+render_target_clear_mode = 1
+render_target_update_mode = 4
+
+[node name="PolygonDemo" type="Node2D" parent="SubViewport"]
+script = ExtResource("1_3y3ej")
+
+[node name="Polygon2D" type="Polygon2D" parent="SubViewport/PolygonDemo"]
+color = Color(1, 1, 1, 0)
+antialiased = true
+polygon = PackedVector2Array(123, 266, 378, 26, 682, 157, 1002, 118, 1077, 424, 747, 541, 843, 302, 810, 217, 553, 446, 468, 227, 430, 560, 103, 560, 261, 475, 361, 268)
