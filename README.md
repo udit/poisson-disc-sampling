@@ -26,7 +26,7 @@ points = PoissonDiscSampling.generate_points_for_circle(circle_position, circle_
 * `start_point` - starting position is optional. A random point inside region is selected if not specified.
 
 
-##### Further Reading 
+### Further Reading 
 * Core algorithm is based on Sebastian Lague's implementation : [[Unity] Procedural Object Placement (E01: poisson disc sampling)](https://youtu.be/7WcmyxyFO7o)
 * [The Coding Train - Coding Challenge #33: Poisson-disc Sampling](https://youtu.be/flQgnCUxHlw)
 * [Fast Poisson Disk Sampling in Arbitrary Dimensions - Robert Bridson](https://www.cct.lsu.edu/~fharhad/ganbatte/siggraph2007/CD2/content/sketches/0250.pdf)
