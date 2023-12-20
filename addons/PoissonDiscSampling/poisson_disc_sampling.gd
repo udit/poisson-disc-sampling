@@ -78,7 +78,7 @@ static func _generate_points(shape: int, sample_region_rect: Rect2, poisson_radi
 				if _is_valid_sample(shape, sample, transpose, cell_size_scaled, cols, rows, grid, points, poisson_radius):
 					var cell: Vector2 = Vector2(int((transpose.x + sample.x) / cell_size_scaled.x), int((transpose.y + sample.y) / cell_size_scaled.y))
 					# fix: https://github.com/udit/poisson-disc-sampling/issues/3
-					if cell.x < cols or cell.y < rows:
+					if cell.x < cols and cell.y < rows:
 						grid[cell.x][cell.y] = points.size()
 						points.append(sample)
 						spawn_points.append(sample)
